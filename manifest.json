@@ -1,9 +1,9 @@
 {
-    "name": "AmazonVideoFastHistory",
+    "name": "__MSG_appName__",
     "manifest_version": 2,
-    "version": "1.1",
+    "version": "1.2",
     "default_locale": "en",
-    "description": "This extention adds viewing history links to Amazon videos.",
+    "description": "__MSG_appDesc__",
     "icons" : {
         "32" : "icon32.png",
         "48" : "icon48.png",

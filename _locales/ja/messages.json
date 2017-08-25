@@ -1,4 +1,12 @@
 {
+  "appName": {
+    "message": "AmazonVideoFastHistory（視聴履歴リンクを表示するだけの機能）",
+    "description":""
+  },
+  "appDesc": {
+    "message": "アマゾンビデオの視聴履歴へのリンクを表示してくれる機能です。",
+    "description":""
+  },
   "menuLabel": {
     "message": "視聴履歴",
     "description": ""

@@ -1,4 +1,12 @@
 {
+  "appName": {
+    "message": "AmazonVideoFastHistory",
+    "description":""
+  },
+  "appDesc": {
+    "message": "This extention adds viewing history links to Amazon videos.",
+    "description":""
+  },
   "menuLabel": {
     "message": "Viewing History",
     "description": ""
