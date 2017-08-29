@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## v1.4 - 2017-08-29
+### Changed
+- Changed extention name
+
 ## v1.3 - 2017-08-28
 ### Changed
 - Changed extention name
@@ -14,7 +18,8 @@
 ### Added
 - Added a menu label in English
 
-[Unreleased]: https://github.com/kuniiskywalker/AmazonVideoFastHistory/compare/v1.3...HEAD
+[Unreleased]: https://github.com/kuniiskywalker/AmazonVideoFastHistory/compare/v1.4...HEAD
+[v1.4]: https://github.com/kuniiskywalker/AmazonVideoFastHistory/compare/v1.3...v1.4
 [v1.3]: https://github.com/kuniiskywalker/AmazonVideoFastHistory/compare/v1.2...v1.3
 [v1.3]: https://github.com/kuniiskywalker/AmazonVideoFastHistory/compare/v1.2...v1.3
 [v1.3]: https://github.com/kuniiskywalker/AmazonVideoFastHistory/compare/v1.2...v1.3
