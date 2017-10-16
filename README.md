@@ -1,11 +1,9 @@
 Chrome Extensions
 =================
 
-## Description
-
 This extention adds viewing history links to Amazon videos.
 
-## Install
+## Installation
 
 Install Chrome Extension here.<br />
 
@@ -15,3 +13,9 @@ https://chrome.google.com/webstore/detail/cfifaldajbjpfiafieifemojpfdiccbm/publi
 ## Author
 
 [@kuniiskywalker](https://twitter.com/kuniiskywalker)
+
+## External article
+
+In Japanese
+
+[場所が分かりにくいAmazonプライムビデオの視聴履歴リンクをメニューに表示させるchrome拡張機能](http://kuniiskywalker.github.io/2017/08/29/amazonprimevideofasthistory/)
