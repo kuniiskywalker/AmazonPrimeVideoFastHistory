@@ -6,9 +6,5 @@
   "appDesc": {
     "message": "amazon プライムビデオの視聴履歴へのリンクを表示してくれる機能です。",
     "description":""
-  },
-  "menuLabel": {
-    "message": "視聴履歴",
-    "description": ""
   }
 }

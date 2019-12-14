@@ -6,9 +6,5 @@
   "appDesc": {
     "message": "This extention adds viewing history links to Amazon prime videos.",
     "description":""
-  },
-  "menuLabel": {
-    "message": "Viewing History",
-    "description": ""
   }
 }
