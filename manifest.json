@@ -10,8 +10,11 @@
         "128" : "icon128.png"
     },
     "content_scripts": [{
-        "matches": ["https://www.amazon.co.jp/*"],
-        "js": ["src/main.js"],
+        "matches": [
+          "https://www.amazon.co.jp/*",
+          "https://www.amazon.co.uk/*"
+        ],
+        "js": ["dist/main.js"],
         "run_at": "document_end"
     }]
 }
