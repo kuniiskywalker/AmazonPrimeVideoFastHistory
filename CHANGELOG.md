@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## v1.5.3 - 2019-04-12
+### Updated
+- Supported UK
+
 ## v1.4 - 2017-08-29
 ### Changed
 - Changed extention name
