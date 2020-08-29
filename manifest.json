@@ -1,7 +1,7 @@
 {
     "name": "__MSG_appName__",
     "manifest_version": 2,
-    "version": "1.5.3",
+    "version": "1.5.4",
     "default_locale": "en",
     "description": "__MSG_appDesc__",
     "icons" : {
@@ -11,6 +11,7 @@
     },
     "content_scripts": [{
         "matches": [
+          "https://www.amazon.com/*",
           "https://www.amazon.co.jp/*",
           "https://www.amazon.co.uk/*"
         ],
