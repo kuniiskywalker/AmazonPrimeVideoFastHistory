@@ -7,6 +7,8 @@ export class CountryFactory {
                 return Countries.JP;
             case 'www.amazon.co.uk':
                 return Countries.UK;
+            case 'www.amazon.com':
+                return Countries.US;
         }
         return Countries.JP
     }
