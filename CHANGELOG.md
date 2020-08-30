@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+## v1.5.5 - 2020-08-30
+### Updated
+- Supported India
+
+## v1.5.4 - 2020-08-29
+### Updated
+- Supported US
+
 ## v1.5.3 - 2019-04-12
 ### Updated
 - Supported UK
