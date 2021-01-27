@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## v1.6 - 2021-01-28
+### Updated
+- Fixed JP Link
+
 ## v1.5.5 - 2020-08-30
 ### Updated
 - Supported India
@@ -30,7 +34,9 @@
 ### Added
 - Added a menu label in English
 
-[Unreleased]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.4...HEAD
+[Unreleased]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.6...HEAD
+[v1.6]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.5.5...v1.6
+[v1.5]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.4...v1.5.5
 [v1.4]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.3...v1.4
 [v1.3]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.2...v1.3
 [v1.3]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.2...v1.3
