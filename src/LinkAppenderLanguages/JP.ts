@@ -8,22 +8,12 @@ export class LinkAppenderJP implements ILinkAppender {
     public addForLoggedInPage() {
         const parentElement = document.querySelector('.av-retail-m-nav-list-main-items');
 
-        const theFirstChild = parentElement.firstChild;
-
         const link = document.createElement('li');
         link.innerHTML = `<a href="${this.viewingHistoryUrl}">${this.label}</a>`;
         link.className = 'av-retail-m-nav-main-item';
 
-        parentElement.insertBefore(link, theFirstChild);
+        parentElement.appendChild(link);
     }
     public addForNoLogInPage() {
-        const parentElement = document.querySelector('.av-retail-m-nav-list-main-items');
-
-        const link = document.createElement('a');
-        link.innerHTML = `<span class="nav-a-content">${this.label}</span>`;
-        link.className = 'av-retail-m-nav-main-item';
-        link.href = this.viewingHistoryUrl;
-
-        parentElement.appendChild(link);
     }
 }
