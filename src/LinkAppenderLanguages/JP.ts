@@ -3,7 +3,7 @@ import { ILinkAppender } from '../ILinkAppender';
 export class LinkAppenderJP implements ILinkAppender {
 
     public label: string = "視聴履歴";
-    public viewingHistoryUrl: string = "/gp/yourstore/iyr/ref=pd_ys_iyr_edit_watched?ie=UTF8&collection=watched";
+    public viewingHistoryUrl: string = "https://www.amazon.co.jp/gp/video/settings/watch-history/ref=atv_set_watch-history";
 
     public addForLoggedInPage() {
         const parentElement = document.querySelector('.av-retail-m-nav-list-main-items');
