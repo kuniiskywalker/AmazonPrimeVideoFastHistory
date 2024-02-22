@@ -6,6 +6,8 @@ module.exports = {
   // メインとなるJavaScriptファイル（エントリーポイント）
   entry: './src/main.ts',
 
+  devtool: 'source-map',
+
   module: {
     rules: [
       {

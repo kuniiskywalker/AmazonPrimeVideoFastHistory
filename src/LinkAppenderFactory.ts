@@ -7,14 +7,14 @@ import { LinkAppenderUS } from './LinkAppenderLanguages/US';
 import { LinkAppenderIN } from './LinkAppenderLanguages/IN';
 
 export class LinkAppenderFactory {
-    public static create(lang: Countries): ILinkAppender {
-        if (lang === Countries.JP) {
+    public static create(host: Countries): ILinkAppender {
+        if (host === Countries.JP) {
             return new LinkAppenderJP();
-        } else if (lang === Countries.UK) {
+        } else if (host === Countries.UK) {
             return new LinkAppenderUK();
-        } else if (lang === Countries.US) {
+        } else if (host === Countries.US) {
             return new LinkAppenderUS();
-        } else if (lang === Countries.IN) {
+        } else if (host === Countries.IN) {
             return new LinkAppenderIN();
         } else {
             throw new Error("Invalid Payment Type");

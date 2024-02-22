@@ -6,18 +6,14 @@ export class LinkAppenderUS implements ILinkAppender {
     public viewingHistoryUrl: string = "https://www.amazon.co.jp/gp/video/settings/watch-history/ref=atv_set_watch-history";
 
     public addForLoggedInPage() {
-        const parentElement = document.querySelector('#nav-xshop');
-
-        if (!parentElement) {
-            return false;
-        }
+        const parentElement = document.querySelector('[data-csa-c-content-id="nav_cs_gb"]');
 
         const link = document.createElement('a');
+        link.href = this.viewingHistoryUrl;
         link.innerHTML = this.label;
         link.className = 'nav-a';
-        link.href = this.viewingHistoryUrl;
 
-        parentElement.append(link);
+        parentElement.insertAdjacentElement('afterend', link);
     }
     public addForNoLogInPage() {}
 }

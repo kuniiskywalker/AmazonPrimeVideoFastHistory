@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## v1.7 - 2024-2-22
+### Updated
+- Fixed history Link
+
 ## v1.6.2 - 2021-11-15
 ### Updated
 - Fixed history Link
