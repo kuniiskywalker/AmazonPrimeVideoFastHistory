@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## v1.8 - 2024-7-30
+### Updated
+- Fixed history Link
+- Supported Spain
+
 ## v1.7 - 2024-2-22
 ### Updated
 - Fixed history Link
@@ -24,11 +29,11 @@
 
 ## v1.5.4 - 2020-08-29
 ### Updated
-- Supported US
+- Supported United States
 
 ## v1.5.3 - 2019-04-12
 ### Updated
-- Supported UK
+- Supported United Kingdom
 
 ## v1.4 - 2017-08-29
 ### Changed
@@ -46,7 +51,9 @@
 ### Added
 - Added a menu label in English
 
-[Unreleased]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.6.2...HEAD
+[Unreleased]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.8...HEAD
+[v1.8]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.7...v1.8
+[v1.7]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.6.2...v1.7
 [v1.6.2]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.6.1...v1.6.2
 [v1.6.1]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.6...v1.6.1
 [v1.6]: https://github.com/kuniiskywalker/AmazonPrimeVideoFastHistory/compare/v1.5.5...v1.6

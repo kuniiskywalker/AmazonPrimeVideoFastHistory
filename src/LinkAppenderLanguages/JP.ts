@@ -3,7 +3,7 @@ import { ILinkAppender } from '../ILinkAppender';
 export class LinkAppenderJP implements ILinkAppender {
 
     public label: string = "視聴履歴";
-    public viewingHistoryUrl: string = "https://www.amazon.co.jp/gp/video/settings/watch-history/ref=atv_set_watch-history";
+    public viewingHistoryUrl: string = "https://www.primevideo.com/region/fe/settings/watch-history/ref=atv_set_watch-history";
 
     public addForLoggedInPage() {
 
@@ -14,6 +14,10 @@ export class LinkAppenderJP implements ILinkAppender {
         }
 
         const parentElement = document.querySelector('[data-csa-c-content-id="nav_cs_prime_video"]');
+
+        if (!parentElement) {
+            return false;
+        }
 
         const link = document.createElement('a');
         link.href = this.viewingHistoryUrl;

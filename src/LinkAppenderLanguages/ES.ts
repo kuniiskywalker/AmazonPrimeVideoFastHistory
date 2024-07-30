@@ -1,12 +1,12 @@
 import { ILinkAppender } from '../ILinkAppender';
 
-export class LinkAppenderUS implements ILinkAppender {
+export class LinkAppenderES implements ILinkAppender {
 
-    public label: string = "Viewing History";
+    public label: string = "Ver historial";
     public viewingHistoryUrl: string = "https://www.primevideo.com/region/fe/settings/watch-history/ref=atv_set_watch-history";
 
     public addForLoggedInPage() {
-        const parentElement = document.querySelector('[data-csa-c-content-id="nav_cs_gb"]');
+        const parentElement = document.querySelector('#nav-xshop');
 
         if (!parentElement) {
             return false;
@@ -15,9 +15,9 @@ export class LinkAppenderUS implements ILinkAppender {
         const link = document.createElement('a');
         link.href = this.viewingHistoryUrl;
         link.innerHTML = this.label;
-        link.className = 'nav-a';
+        link.className = 'nav-a'; //aa 
 
-        parentElement.insertAdjacentElement('afterend', link);
+        parentElement.insertBefore(link, parentElement.firstChild);
     }
     public addForNoLogInPage() {}
 }

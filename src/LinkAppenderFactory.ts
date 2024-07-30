@@ -5,6 +5,7 @@ import { LinkAppenderJP } from './LinkAppenderLanguages/JP';
 import { LinkAppenderUK } from './LinkAppenderLanguages/UK';
 import { LinkAppenderUS } from './LinkAppenderLanguages/US';
 import { LinkAppenderIN } from './LinkAppenderLanguages/IN';
+import { LinkAppenderES } from './LinkAppenderLanguages/ES';
 
 export class LinkAppenderFactory {
     public static create(host: Countries): ILinkAppender {
@@ -16,6 +17,8 @@ export class LinkAppenderFactory {
             return new LinkAppenderUS();
         } else if (host === Countries.IN) {
             return new LinkAppenderIN();
+        } else if (host === Countries.ES) {
+            return new LinkAppenderES();
         } else {
             throw new Error("Invalid Payment Type");
         }

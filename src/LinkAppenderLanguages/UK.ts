@@ -3,7 +3,7 @@ import { ILinkAppender } from '../ILinkAppender';
 export class LinkAppenderUK implements ILinkAppender {
 
     public label: string = "Viewing History";
-    public viewingHistoryUrl: string = "https://www.amazon.co.jp/gp/video/settings/watch-history/ref=atv_set_watch-history";
+    public viewingHistoryUrl: string = "https://www.primevideo.com/region/fe/settings/watch-history/ref=atv_set_watch-history";
 
     public addForLoggedInPage() {
         const parentElement = document.querySelector('.av-retail-m-nav-list-subitems');

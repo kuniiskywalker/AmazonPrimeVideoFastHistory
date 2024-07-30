@@ -1,6 +1,7 @@
 export enum Countries {
-    JP,
-    UK,
-    US,
-    IN,
+    JP, // Japan
+    UK, // United Kingdom
+    US, // United States
+    IN, // India
+    ES, // Spain
 }

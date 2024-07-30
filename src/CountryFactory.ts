@@ -11,6 +11,8 @@ export class CountryFactory {
                 return Countries.US;
             case 'www.amazon.in':
                 return Countries.IN;
+            case 'www.amazon.es':
+                return Countries.ES;
         }
         return Countries.JP
     }
