@@ -3,7 +3,7 @@ import { ILinkAppender } from '../ILinkAppender';
 export class LinkAppenderJP implements ILinkAppender {
 
     public label: string = "視聴履歴";
-    public viewingHistoryUrl: string = "https://www.primevideo.com/region/fe/settings/watch-history/ref=atv_set_watch-history";
+    public viewingHistoryUrl: string = "https://www.amazon.co.jp/gp/video/settings/watch-history/ref=atv_set_watch-history";
 
     public addForLoggedInPage() {
 
